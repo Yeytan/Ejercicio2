@@ -26,9 +26,9 @@ mainframeTabla.grid(column=0,row=6,columnspan=5,pady=30)
 ttk.Label(raiz,text="Product management",font=("verdana",30,"bold"),foreground="white",background="gray40").grid(column=0,row=0,padx=80,sticky=(W))
 
 imagen = PhotoImage(file="carrito2.png")
-imagenC = ttk.Label(raiz,background="gray40")
-imagenC.grid(column=0,row=0,sticky=(W))
-imagenC['image'] = imagen
+imagenCarrito = ttk.Label(raiz,background="gray40")
+imagenCarrito.grid(column=0,row=0,sticky=(W))
+imagenCarrito['image'] = imagen
 
 #Declaraciones
 
